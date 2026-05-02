@@ -1,5 +1,7 @@
 # SWT-Rebalancer (Perpetual Income Engine)
 
+**[🔥 Click Here to View the Live Application](https://piuser-J.github.io/SWT-Rebalancer/rebalancer/)**
+
 A high-performance, web-based Portfolio Rebalancing Tool engineered specifically to manage the **"Spend Without Thinking" (SWT) Portfolio**. The tool automates the math behind the 50/40/10 Bucket Architecture, calculating the precise minimum number of transactions required to rebalance the portfolio based on specific threshold rules.
 
 ## 🌟 Features
