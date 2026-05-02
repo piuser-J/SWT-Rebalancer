@@ -154,61 +154,118 @@ function calculateRebalance() {
 
     if (totalValue <= 0) return;
 
-    // Rule A: Profit Taking
     let proceeds = cashInput;
     let transactions = [];
     const simulatedValues = { ...currentValues };
-    const analysis = [];
-
-    FUNDS.forEach(f => {
+    
+    // Create analysis array
+    const analysis = FUNDS.map(f => {
         const currentWeight = currentValues[f.id] / totalValue;
         const targetValue = f.target * totalValue;
-        
-        // Rule A: if weightage exceeded 5% of overall portfolio
-        if (currentWeight > f.target + 0.05) {
-            const amount = currentValues[f.id] - targetValue;
-            proceeds += amount;
-            simulatedValues[f.id] -= amount;
-            transactions.push({ action: 'SELL', fund: f.ticker, name: f.name, amount: amount });
-        }
-        
-        analysis.push({
+        return {
             ...f,
             currentWeight,
             targetValue,
             currentValue: currentValues[f.id]
-        });
+        };
     });
 
-    // Rule C: Redistribution
-    const buyCandidates = analysis.filter(f => {
-        const currentWeight = currentValues[f.id] / totalValue;
-        const relativeFluctuation = Math.abs(currentWeight - f.target) / f.target;
-        
-        // Rule B: if a fund's P&L is within a 2% relative fluctuation of its weight, do not trigger
-        if (currentWeight < f.target && relativeFluctuation > 0.02) {
-            return true;
+    // Rule A: Profit Taking (Sell if > 5% overweight in absolute portfolio terms)
+    analysis.forEach(f => {
+        if (f.currentWeight > f.target + 0.05) {
+            const amount = f.currentValue - f.targetValue;
+            proceeds += amount;
+            simulatedValues[f.id] -= amount;
+            f.currentValue -= amount; // update for next steps
+            f.currentWeight = f.target;
+            transactions.push({ action: 'SELL', fund: f.ticker, name: f.name, amount: amount });
         }
-        return false;
     });
 
-    // Sort by poorest performer (largest negative gap from target)
-    buyCandidates.sort((a, b) => {
-        const gapA = a.currentWeight - a.target; 
-        const gapB = b.currentWeight - b.target; 
-        return gapA - gapB; 
-    });
+    // NEW RULE: Deep Under-allocation Top-up
+    // Top up if a fund dropped more than 5% (absolute) below its target allocation
+    const deepUnderAllocated = analysis.filter(f => (f.target - f.currentWeight) > 0.05);
 
-    for (let f of buyCandidates) {
-        if (proceeds <= 0) break;
-        const targetVal = f.target * totalValue;
-        const needed = targetVal - simulatedValues[f.id];
-        
-        if (needed > 0) {
-            const buyAmount = Math.min(proceeds, needed);
-            proceeds -= buyAmount;
-            simulatedValues[f.id] += buyAmount;
-            transactions.push({ action: 'BUY', fund: f.ticker, name: f.name, amount: buyAmount });
+    if (deepUnderAllocated.length > 0) {
+        let totalNeeded = 0;
+        deepUnderAllocated.forEach(f => {
+            totalNeeded += (f.targetValue - f.currentValue);
+        });
+
+        if (totalNeeded > proceeds) {
+            let shortfall = totalNeeded - proceeds;
+            
+            // Find profitable funds to sell (funds currently above their target)
+            const profitableFunds = analysis.filter(f => f.currentWeight > f.target);
+            // Sort by highest excess weight first
+            profitableFunds.sort((a, b) => (b.currentWeight - b.target) - (a.currentWeight - a.target));
+            
+            for (let f of profitableFunds) {
+                if (shortfall <= 0) break;
+                
+                const excess = f.currentValue - f.targetValue;
+                if (excess > 0) {
+                    const sellAmount = Math.min(excess, shortfall);
+                    proceeds += sellAmount;
+                    shortfall -= sellAmount;
+                    simulatedValues[f.id] -= sellAmount;
+                    f.currentValue -= sellAmount;
+                    f.currentWeight = f.currentValue / totalValue;
+                    
+                    const existingTx = transactions.find(t => t.fund === f.ticker && t.action === 'SELL');
+                    if (existingTx) {
+                        existingTx.amount += sellAmount;
+                    } else {
+                        transactions.push({ action: 'SELL', fund: f.ticker, name: f.name, amount: sellAmount });
+                    }
+                }
+            }
+        }
+
+        // Top up the deep under-allocated funds
+        deepUnderAllocated.forEach(f => {
+            const needed = f.targetValue - f.currentValue;
+            if (needed > 0 && proceeds > 0) {
+                const buyAmount = Math.min(proceeds, needed);
+                proceeds -= buyAmount;
+                simulatedValues[f.id] += buyAmount;
+                f.currentValue += buyAmount;
+                f.currentWeight = f.currentValue / totalValue;
+                
+                transactions.push({ action: 'BUY', fund: f.ticker, name: f.name, amount: buyAmount });
+            }
+        });
+    }
+
+    // Rule C: Redistribution of any remaining proceeds
+    if (proceeds > 0) {
+        const buyCandidates = analysis.filter(f => {
+            const relativeFluctuation = Math.abs(f.currentWeight - f.target) / f.target;
+            // Rule B: if a fund's P&L is within a 2% relative fluctuation of its weight, do not trigger
+            return f.currentWeight < f.target && relativeFluctuation > 0.02;
+        });
+
+        // Sort by poorest performer (largest negative gap from target)
+        buyCandidates.sort((a, b) => (a.currentWeight - a.target) - (b.currentWeight - b.target));
+
+        for (let f of buyCandidates) {
+            if (proceeds <= 0) break;
+            const needed = f.targetValue - f.currentValue;
+            
+            if (needed > 0) {
+                const buyAmount = Math.min(proceeds, needed);
+                proceeds -= buyAmount;
+                simulatedValues[f.id] += buyAmount;
+                f.currentValue += buyAmount;
+                f.currentWeight = f.currentValue / totalValue;
+                
+                const existingTx = transactions.find(t => t.fund === f.ticker && t.action === 'BUY');
+                if (existingTx) {
+                    existingTx.amount += buyAmount;
+                } else {
+                    transactions.push({ action: 'BUY', fund: f.ticker, name: f.name, amount: buyAmount });
+                }
+            }
         }
     }
 
