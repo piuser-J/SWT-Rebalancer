@@ -1,9 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
+:root {
+    /* Light Mode */
+    --color-bg: #f1f5f9;
+    --color-panel: #ffffff;
+    --color-border: #cbd5e1;
+    --color-text: #0f172a;
+    --color-muted: #64748b;
+    --color-orange: #ea580c;
+    --color-green: #16a34a;
+    --color-red: #dc2626;
+    --color-cyan: #0284c7;
+    
+    --btn-bg-top: #f8fafc;
+    --btn-bg-bot: #e2e8f0;
+    --btn-border: #cbd5e1;
+    --btn-text: #334155;
+    
+    --btn-hov-top: #e2e8f0;
+    --btn-hov-bot: #cbd5e1;
+    --btn-hov-text: #0f172a;
+    
+    --btn-pri-top: #fb923c;
+    --btn-pri-bot: #ea580c;
+    --btn-pri-border: #fdba74;
+    --btn-pri-text: #ffffff;
+    
+    --scrollbar-track: #f1f5f9;
+    --scrollbar-thumb: #cbd5e1;
+    --scrollbar-thumb-hover: #94a3b8;
+    
+    --input-bg: #ffffff;
+    --input-border: #94a3b8;
+    
+    --grid-color: rgba(0, 0, 0, 0.04);
+}
+
+.dark {
+    /* Bloomberg Dark Mode */
+    --color-bg: #000000;
+    --color-panel: #0a0a0a;
+    --color-border: #262626;
+    --color-text: #e5e5e5;
+    --color-muted: #737373;
+    --color-orange: #ff9900;
+    --color-green: #00ff00;
+    --color-red: #ff3333;
+    --color-cyan: #00ffff;
+
+    --btn-bg-top: #262626;
+    --btn-bg-bot: #111111;
+    --btn-border: #4d4d4d;
+    --btn-text: #cccccc;
+    
+    --btn-hov-top: #333333;
+    --btn-hov-bot: #1a1a1a;
+    --btn-hov-text: #ffffff;
+
+    --btn-pri-top: #ff9900;
+    --btn-pri-bot: #cc7a00;
+    --btn-pri-border: #ffcc80;
+    --btn-pri-text: #000000;
+    
+    --scrollbar-track: #000000;
+    --scrollbar-thumb: #262626;
+    --scrollbar-thumb-hover: #404040;
+    
+    --input-bg: #050505;
+    --input-border: #333333;
+    
+    --grid-color: rgba(255, 255, 255, 0.04);
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #000000;
-    color: #e5e5e5;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .font-mono {
@@ -12,57 +85,58 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: #000000; }
-::-webkit-scrollbar-thumb { background: #262626; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #404040; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
 
 /* Bloomberg inspired inputs */
 .bbg-input {
-    background-color: #050505;
-    border: 1px solid #333333;
-    color: #ff9900;
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: var(--color-orange);
     transition: all 0.2s;
 }
 .bbg-input:focus {
-    border-color: #ff9900;
+    border-color: var(--color-orange);
     outline: none;
     box-shadow: inset 0 0 5px rgba(255, 153, 0, 0.2);
 }
 
 .bbg-panel {
-    background-color: #0a0a0a;
-    border: 1px solid #262626;
-    border-radius: 4px;
+    background-color: var(--color-panel);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .bbg-button {
-    background: linear-gradient(180deg, #262626 0%, #111111 100%);
-    border: 1px solid #4d4d4d;
-    color: #cccccc;
+    background: linear-gradient(180deg, var(--btn-bg-top) 0%, var(--btn-bg-bot) 100%);
+    border: 1px solid var(--btn-border);
+    color: var(--btn-text);
     transition: all 0.1s;
 }
 .bbg-button:hover {
-    background: linear-gradient(180deg, #333333 0%, #1a1a1a 100%);
-    border-color: #666666;
-    color: #ffffff;
+    background: linear-gradient(180deg, var(--btn-hov-top) 0%, var(--btn-hov-bot) 100%);
+    border-color: var(--btn-hov-top);
+    color: var(--btn-hov-text);
 }
 .bbg-button:active {
-    background: #111111;
-    border-color: #333333;
+    background: var(--btn-bg-bot);
+    border-color: var(--btn-bg-top);
 }
 .bbg-button-primary {
-    background: linear-gradient(180deg, #ff9900 0%, #cc7a00 100%);
-    border: 1px solid #ffcc80;
-    color: #000000;
+    background: linear-gradient(180deg, var(--btn-pri-top) 0%, var(--btn-pri-bot) 100%);
+    border: 1px solid var(--btn-pri-border);
+    color: var(--btn-pri-text);
     font-weight: 700;
     transition: all 0.1s;
 }
 .bbg-button-primary:hover {
-    background: linear-gradient(180deg, #ffaa33 0%, #e68a00 100%);
+    background: linear-gradient(180deg, var(--btn-pri-border) 0%, var(--btn-pri-bot) 100%);
 }
 .bbg-button-primary:active {
-    background: #cc7a00;
-    border-color: #ff9900;
+    background: var(--btn-pri-bot);
+    border-color: var(--btn-pri-top);
 }
 
 /* Row animations */
@@ -79,6 +153,6 @@ body {
 .terminal-grid {
     background-size: 50px 50px;
     background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
 }

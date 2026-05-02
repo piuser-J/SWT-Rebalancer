@@ -1,11 +1,14 @@
 const FUNDS = [
-    { id: 'united', name: 'United SGD Fund CI A Dis SGD', ticker: 'UOBSGDA SP', target: 0.10, color: '#00ffff' },
-    { id: 'amundi', name: 'Amundi Funds Global Aggregate Bond', ticker: 'AMUGLOA LX', target: 0.20, color: '#ff9900' },
-    { id: 'pimco', name: 'PIMCO Income Fund Admin Ci Inc', ticker: 'PIMINCA ID', target: 0.20, color: '#ff33ff' },
-    { id: 'jpm', name: 'JPMorgan Global Income A (icdiv)', ticker: 'JPMGLIA LX', target: 0.20, color: '#33cc33' },
-    { id: 'reit', name: 'Lion-Phillip S-REIT ETF', ticker: 'SREITS SP', target: 0.20, color: '#ffff00' },
-    { id: 'sti', name: 'Amova Singapore STI ETF', ticker: 'STIES SP', target: 0.10, color: '#ff3333' }
+    { id: 'united', name: 'United SGD Fund', ticker: 'UOBSGDA SP', target: 0.10, color: '#0284c7' }, // Cyan equivalent
+    { id: 'amundi', name: 'Amundi Global Agg Bond', ticker: 'AMUGLOA LX', target: 0.20, color: '#ea580c' }, // Orange eq
+    { id: 'pimco', name: 'PIMCO Income Fund', ticker: 'PIMINCA ID', target: 0.20, color: '#9333ea' }, // Purple eq
+    { id: 'jpm', name: 'JPM Global Income', ticker: 'JPMGLIA LX', target: 0.20, color: '#16a34a' }, // Green eq
+    { id: 'reit', name: 'Lion-Phillip S-REIT', ticker: 'SREITS SP', target: 0.20, color: '#eab308' }, // Yellow eq
+    { id: 'sti', name: 'Amova STI ETF', ticker: 'STIES SP', target: 0.10, color: '#dc2626' } // Red eq
 ];
+
+// Dark mode specific colors for charts to match bloomberg theme exactly
+const DARK_COLORS = ['#00ffff', '#ff9900', '#ff33ff', '#33cc33', '#ffff00', '#ff3333'];
 
 const DEFAULT_VALS = {
     'united': 42000,
@@ -24,14 +27,49 @@ let currentTab = 'before';
 const fmt = new Intl.NumberFormat('en-US');
 const parseNum = (str) => parseFloat(str.replace(/,/g, '')) || 0;
 
+// Theme Icons
+const sunIcon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`;
+const moonIcon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>`;
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme Setup
+    const themeBtn = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+    
+    // Default to dark mode if no preference saved
+    if (savedTheme === 'light') {
+        html.classList.remove('dark');
+        themeBtn.innerHTML = moonIcon;
+    } else {
+        html.classList.add('dark');
+        themeBtn.innerHTML = sunIcon;
+    }
+
+    themeBtn.addEventListener('click', () => {
+        if (html.classList.contains('dark')) {
+            html.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+            themeBtn.innerHTML = moonIcon;
+        } else {
+            html.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+            themeBtn.innerHTML = sunIcon;
+        }
+        
+        // Re-render charts to update colors if they exist
+        if (beforeChart || afterChart) {
+            document.getElementById('calc-btn').click();
+        }
+    });
+
     // Clock
-    setInterval(() => {
+    const updateClock = () => {
         const d = new Date();
         document.getElementById('clock').innerText = d.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
-    }, 1000);
-    const d = new Date();
-    document.getElementById('clock').innerText = d.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+    };
+    setInterval(updateClock, 1000);
+    updateClock();
 
     const inputsContainer = document.getElementById('inputs-container');
     
@@ -42,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <label class="text-[10px] font-bold text-bbg-muted uppercase tracking-wider cursor-help" title="${fund.name}">
                     ${fund.ticker}
                 </label>
-                <span class="text-[9px] px-1 bg-bbg-border text-white rounded font-mono">TGT: ${(fund.target*100).toFixed(0)}%</span>
+                <span class="text-[9px] px-1 bg-bbg-border text-bbg-text rounded font-mono">TGT: ${(fund.target*100).toFixed(0)}%</span>
             </div>
             <div class="relative">
                 <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-bbg-muted font-mono text-sm">$</span>
@@ -87,14 +125,14 @@ function switchTab(tab) {
     const contA = document.getElementById('chart-container-after');
 
     if(tab === 'before') {
-        btnB.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded bg-bbg-border text-white transition-colors";
+        btnB.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded bg-bbg-border text-bbg-text transition-colors";
         btnA.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded text-bbg-muted hover:bg-bbg-border/50 transition-colors";
         contB.style.opacity = '1';
         contB.style.pointerEvents = 'auto';
         contA.style.opacity = '0';
         contA.style.pointerEvents = 'none';
     } else {
-        btnA.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded bg-bbg-border text-white transition-colors";
+        btnA.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded bg-bbg-border text-bbg-text transition-colors";
         btnB.className = "text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded text-bbg-muted hover:bg-bbg-border/50 transition-colors";
         contA.style.opacity = '1';
         contA.style.pointerEvents = 'auto';
@@ -237,7 +275,7 @@ function updateUI(totalValue, transactions, currentValues, simulatedValues) {
                 <td class="p-4">
                     <span class="${textClass} font-bold">${t.action}</span>
                 </td>
-                <td class="p-4 text-white" title="${t.name}">${t.fund}</td>
+                <td class="p-4 text-bbg-text" title="${t.name}">${t.fund}</td>
                 <td class="p-4 text-right ${textClass}">$${fmt.format(t.amount.toFixed(2))}</td>
             `;
             tbody.appendChild(tr);
@@ -254,11 +292,13 @@ function updateUI(totalValue, transactions, currentValues, simulatedValues) {
 }
 
 function renderCharts(currentData, afterData) {
-    Chart.defaults.color = '#737373';
+    const isDark = document.documentElement.classList.contains('dark');
+    
+    Chart.defaults.color = isDark ? '#737373' : '#64748b';
     Chart.defaults.font.family = "'JetBrains Mono', monospace";
     
     const labels = FUNDS.map(f => f.ticker);
-    const bgColors = FUNDS.map(f => f.color);
+    const bgColors = isDark ? DARK_COLORS : FUNDS.map(f => f.color);
 
     const beforeDataArr = FUNDS.map(f => currentData[f.id]);
     const afterDataArr = FUNDS.map(f => afterData[f.id]);
@@ -270,7 +310,7 @@ function renderCharts(currentData, afterData) {
             legend: { 
                 position: 'right',
                 labels: {
-                    color: '#e5e5e5',
+                    color: isDark ? '#e5e5e5' : '#0f172a',
                     usePointStyle: true,
                     pointStyle: 'rect',
                     padding: 20,
@@ -278,10 +318,10 @@ function renderCharts(currentData, afterData) {
                 }
             },
             tooltip: {
-                backgroundColor: 'rgba(10, 10, 10, 0.95)',
-                titleColor: '#fff',
-                bodyColor: '#ff9900',
-                borderColor: '#262626',
+                backgroundColor: isDark ? 'rgba(10, 10, 10, 0.95)' : 'rgba(255, 255, 255, 0.95)',
+                titleColor: isDark ? '#ffffff' : '#0f172a',
+                bodyColor: isDark ? '#ff9900' : '#ea580c',
+                borderColor: isDark ? '#262626' : '#cbd5e1',
                 borderWidth: 1,
                 padding: 12,
                 displayColors: false,
@@ -296,7 +336,7 @@ function renderCharts(currentData, afterData) {
             }
         },
         borderWidth: 1,
-        borderColor: '#000000',
+        borderColor: isDark ? '#000000' : '#f8fafc',
         cutout: '75%',
         animation: {
             duration: 800,
