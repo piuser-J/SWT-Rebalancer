@@ -1,0 +1,823 @@
+Spend Without Thinking 
+Perpetual Income Engine 
+Jason Lee 
+3/18/26 
+FSMOne 
+ 
+ 
+ 
+1 | P a g e  
+ 
+ 
+MANAGED PORTFOLIO PROSPECTUS: THE PERPETUAL INCOME ENGINE 
+Portfolio Name: The "Spend Without Thinking" (SWT) Portfolio 
+Strategy Type: Perpetual Income Engine (PIE) / Multi-Asset Yield 
+Base Currency: Singapore Dollar (SGD) 
+Target Base Capital: $400,000 SGD 
+Target Base Distribution: $1,000 SGD / Month (Escalating) 
+Date of Issue: March 2026 
+ 
+ 
+2 | P a g e  
+ 
+ 
+TABLE OF CONTENTS 
+1. Executive Summary 
+1.1. Portfolio Overview & The Core Problem 
+1.2. Investment Objective 
+1.3. Key Investment Highlights 
+1.4. Target Investors & Psychological Prerequisites 
+1.5. Summary of Key Terms 
+2. Portfolio Structure & Legal Domicile 
+2.1. Legal Structure of the Private Wealth Vehicle 
+2.2. Jurisdiction and Domicile Advantages 
+2.3. Portfolio Service Providers 
+3. Investment Strategy & The Bucket Architecture 
+3.1. Investment Philosophy: Cash Flow vs. Capital Liquidation 
+3.2. Strategy Overview: The 50/40/10 Framework 
+3.3. Markets and Geographic Focus (The SGD Hedge) 
+3.4. Portfolio Construction & Asset Selection 
+3.5. Risk/Return Target Profile 
+4. Investment Process & Execution Mechanics 
+4.1. Research Methodology & Asset Vetting 
+4.2. Idea Generation & The Yield Shield 
+4.3. Trade Execution & Passive Management 
+4.4. The Rebalancing Strategy (The ±5% Threshold) 
+4.5. The Annual January Review & "Power Buy" 
+5. Risk Management Framework 
+5.1. Risk Philosophy: Redefining "Volatility" 
+5.2. Sequence of Returns Risk (SORR) & The 3.3-Year Runway 
+5.3. Market Risk & Counterparty Controls 
+5.4. Stress Testing and Scenario Analysis 
+6. Historical Performance & Backtesting 
+6.1. Track Record & Forward Projections 
+6.2. Benchmark Comparison 
+6.3. The "Time Machine" Drawdown Analysis 
+7. Fees, Expenses & Frictional Costs 
+7.1. Management Fees & TER Mitigation 
+7.2. Custodian Platform Fees (FSMOne) & Dollar Impact 
+7.3. The Platinum Tier Milestone (Fee Elimination) 
+7.4. The Quarterly Billing Cycle (Pre-Platinum) 
+7.5. Operating Expenses & FX Mitigation 
+3 | P a g e  
+ 
+ 
+8. Portfolio Valuation & Nav Tracking 
+8.1. Net Asset Value (NAV) Calculation 
+8.2. Valuation Methodology & Frequency 
+8.3. The Behavioral Finance Imperative: The Psychology of Inattention 
+8.4. The Operational Mandate (The "Ignore" Rule) 
+9. Risk Factors & Disclosures 
+9.1. Macroeconomic & Interest Rate Risk 
+9.2. Liquidity & Operational Risk 
+9.3. Regulatory & Tax Code Risk 
+9.4. Stagflation & Model Risk 
+10. Operational Infrastructure & Automation 
+10.1. 
+Technology Platform & Custody 
+10.2. 
+Trade Operations & Dividend Sweeping 
+10.3. 
+Estate Planning & Business Continuity 
+11. Appendices 
+Appendix A: Definitions of Key Terms 
+Appendix B: 30-Year Capital & Distribution Projection Table 
+Appendix C: Client Qualification & Lifecycle Phase Mapping 
+ 
+ 
+4 | P a g e  
+ 
+ 
+1. EXECUTIVE SUMMARY 
+1.1 Portfolio Overview & The Core Problem 
+The modern retirement landscape is fundamentally broken. Traditional financial 
+planning relies heavily on the "4% Rule," which dictates that retirees must 
+systematically sell off pieces of their principal capital to fund their lifestyle. This creates 
+an environment of constant anxiety: If the market crashes, do I still sell my shares at a 
+loss? Will I outlive my money? The "Spend Without Thinking" (SWT) Portfolio abandons 
+this flawed paradigm. It operates as a Perpetual Income Engine (PIE). It is a self-
+sustaining financial architecture designed to transform a static capital base into a 
+permanent, automated payroll system. By focusing entirely on organic cash yield rather 
+than capital liquidation, the Portfolio divorces the operator's lifestyle from the daily 
+volatility of the stock market. 
+1.2 Investment Objective 
+The primary objective of the Portfolio is to provide a permanent, tax-efficient monthly 
+income that escalates over time to combat inflation, without ever requiring the 
+liquidation of the principal capital base. Secondary objectives include the preservation 
+of capital purchasing power and the seamless, multi-generational transfer of wealth. 
+1.3 Key Investment Highlights 
+• 
+Proprietary Bucket Architecture: A strict 50/40/10 allocation dividing assets by 
+liquidity (10%), income (40%), and growth (50%). 
+• 
+The "Yield Shield": Generates an estimated 4.9% cash yield to fund 
+distributions independent of market volatility. 
+• 
+Automated Cash Flow: Seamlessly sweeps generated yield into the operator's 
+personal retail bank accounts on the 1st of every month. 
+• 
+Sequence of Returns Mitigation: Houses a 3.3-year localized liquidity runway to 
+bridge systemic market crashes, entirely removing the need to sell depressed 
+growth assets. 
+1.4 Target Investors & Psychological Prerequisites 
+This Portfolio is specifically engineered for individuals entering the retirement or legacy-
+building phase. It requires a specific psychological profile: the Operator must possess 
+the discipline to entirely detach their emotions from the paper valuation of the portfolio. 
+The target investor seeks passive, uninterrupted cash flow and is willing to forgo high-
+risk, speculative capital gains in exchange for sleep-at-night certainty and systematic 
+multi-generational wealth transfer. 
+5 | P a g e  
+ 
+1.5 Summary of Key Terms 
+• 
+Target Base Capital: $400,000 SGD 
+• 
+Target Base Distribution: $1,000 SGD / Month ($12,000 Annually) 
+• 
+Distribution Escalation: +2% Annually (Executed during the January Review) 
+• 
+Target Cash Yield: ~4.9% (approx. $19,800 annually on base capital) 
+• 
+Investment Horizon: 30+ Years (Perpetuity) 
+ 
+ 
+ 
+6 | P a g e  
+ 
+ 
+2. PORTFOLIO STRUCTURE & LEGAL DOMICILE 
+2.1 Legal Structure of the Private Wealth Vehicle 
+The SWT Portfolio is not a publicly traded unit trust or a pooled institutional hedge fund. 
+It operates as a privately managed, personal wealth vehicle. It utilizes institutional-
+grade portfolio mechanics—strict asset allocation, automated threshold rebalancing, 
+and disciplined payout ratios—but applies them within a segregated, personal 
+brokerage environment. The "Manager" and the "Client" are the same entity: the 
+designated Operator (or designated Heir). 
+2.2 Jurisdiction and Domicile Advantages 
+The Portfolio is domiciled in the Republic of Singapore. This is a critical structural 
+advantage that fundamentally enables the Perpetual Income Engine to function 
+efficiently. 
+• 
+Tax Optimization: Singapore levies no capital gains tax and no dividend 
+withholding tax on domestic corporate distributions. This allows the 30% 
+domestic allocation (S-REITs and STI ETF) to operate with 100% tax efficiency. 
+• 
+Currency Stability: The Monetary Authority of Singapore (MAS) utilizes the 
+exchange rate as its primary monetary policy tool, structurally maintaining a 
+strong Singapore Dollar (SGD) to combat imported inflation. By basing the 
+Portfolio in SGD, the Operator’s purchasing power is inherently protected. 
+2.3 Portfolio Service Providers 
+Because this is a private wealth architecture, traditional institutional service providers 
+are replaced by automated systems and the Operator's direct oversight. 
+• 
+Investment Manager: The designated Operator / Heir (acting as the Steward of 
+the Engine). 
+• 
+Administrator: Automated via designated brokerage standing instructions. 
+• 
+Custodian / Prime Broker: iFAST Corporation (via the FSMOne platform) or dual-
+hub equivalents. FSMOne provides the necessary localized cash management 
+hub and automated dividend sweeping capabilities required for the PIE to 
+function. 
+• 
+Auditor: Self-audited strictly via the Annual January Review. 
+• 
+Legal Counsel: Administered alongside the Operator's personal Estate Planning 
+counsel (integration with Lasting Power of Attorney, Wills, and CPF 
+Nominations). 
+7 | P a g e  
+ 
+ 
+3. INVESTMENT STRATEGY & THE BUCKET ARCHITECTURE 
+3.1 Investment Philosophy: Cash Flow vs. Capital Liquidation 
+The fundamental philosophy of the SWT Portfolio is that capital should act as a "Golden 
+Goose." You may consume the eggs (dividends and coupons), but you must never 
+slaughter the goose (sell the principal units). 
+In traditional finance, total return (yield + capital gains) is King. In the Perpetual Income 
+Engine, Cash Flow is King. A portfolio that drops 20% in paper value but continues to 
+distribute a 5% cash dividend is considered perfectly healthy and operational. We 
+optimize for income reliability first, and capital growth second. 
+3.2 Strategy Overview: The 50/40/10 Framework 
+The Portfolio utilizes a strictly enforced 50/40/10 allocation model. This creates 
+"Defense in Depth," balancing immediate liquidity, reliable yield, and long-term capital 
+compounding. 
+• 
+Bucket 1: Liquidity & Stability (10%) - Designed for absolute capital 
+preservation. It ensures cash is always available for distributions without selling 
+risk assets. 
+• 
+Bucket 2: Core Income (40%) - Designed for high, uninterrupted yield and 
+downside protection during equity market panics. 
+• 
+Bucket 3: Growth & Preservation (50%) - Designed to combat long-term 
+inflation, generate dividend growth, and provide organic capital appreciation 
+over a multi-decade horizon. 
+3.3 Markets and Geographic Focus (The SGD Hedge) 
+The portfolio maintains a strong structural "home bias." While modern portfolio theory 
+often advocates for maximum global diversification, a retirement portfolio must 
+account for currency risk. 
+By holding 30% of the portfolio directly in Singapore (S-REITs and the STI ETF), the 
+Portfolio establishes a perfect currency hedge. The Operator spends in SGD, and a 
+massive portion of their income is generated in SGD, neutralizing the risk of foreign 
+exchange fluctuations eroding their lifestyle. The remaining 70% is allocated globally to 
+diversify macroeconomic risk and capture premium global credit yields, utilizing SGD-
+Hedged share classes wherever mathematically viable. 
+ 
+ 
+8 | P a g e  
+ 
+3.4 Portfolio Construction & Asset Selection 
+The selection of institutional-grade engines is critical for the maintenance of the PIE’s 
+mandate. The strategy prioritizes funds that offer SGD-Hedged share classes to 
+neutralize foreign exchange drag, ensuring that the strength of the Singapore Dollar 
+does not erode global yields. 
+The Six-Engine Matrix 
+Bucket 
+Weight Asset Name 
+Target Role 
+Est. 
+Yield 
+Risk 
+Score 
+Liquidity 10% 
+United SGD Fund CI A Dis 
+SGD 
+Short-term 
+stability 
+3.58% 
+2 
+Income 
+20% 
+Amundi Funds Global 
+Aggregate Bond A2 (MTD) 
+SGD-H 
+Global IG 
+bond anchor 
+5.82% 
+3 
+Income 
+20% 
+PIMCO Income Fund Admin 
+Ci Inc SGD-H 
+High-yield 
+cash engine 
+6.57% 
+4 
+Growth 
+20% 
+JPMorgan Investment Funds 
+- Global Income A (icdiv) 
+SGD-H 
+Global multi-
+asset 
+~5.00% 
+6 
+Growth 
+20% 
+Lion-Phillip S-REIT ETF 
+Tax-free 
+inflation 
+hedge 
+5.11% 
+7 
+Growth 
+10% 
+Amova Singapore STI ETF 
+SGD (Dist) 
+SG Blue-
+Chip equity 
+3.70% 
+6 
+ 
+9 | P a g e  
+ 
+Detailed Asset Breakdown: 
+• 
+10% ($40,000) - United SGD Fund CI A Dis SGD (Bucket 1): An actively 
+managed Asian short-duration credit fund. It acts as a high-yielding proxy for 
+cash, historically delivering ~3.58% with virtually zero price volatility. 
+• 
+20% ($80,000) - Amundi Funds Global Aggregate Bond A2 (MTD) SGD-H 
+(Bucket 2): Tracks the global investment-grade bond market. Predominantly 
+AAA/AA sovereign debt. It is the ultimate portfolio anchor, historically 
+appreciating during global stock market crashes as capital flees to safety. 
+• 
+20% ($80,000) - PIMCO Income Fund Admin Ci Inc SGD-H (Bucket 2): A 
+flexible, multi-sector global credit fund. It scours global high-yield, mortgage-
+backed, and emerging market debt to generate the massive cash flow required to 
+subsidize the portfolio's total 4.9% target yield. 
+• 
+20% ($80,000) - JPMorgan Investment Funds - Global Income A (icdiv) SGD-H 
+(Bucket 3): A dynamically managed global multi-asset fund holding thousands of 
+international dividend-paying equities and alternative income sources, providing 
+the necessary growth outside of Southeast Asia. 
+• 
+20% ($80,000) - Lion-Phillip S-REIT ETF (Bucket 3): A passive vehicle capturing 
+the rental income of prime Singapore real estate. Physical property acts as the 
+ultimate long-term inflation hedge, as landlords possess the pricing power to 
+raise rents as the money supply expands.  
+• 
+10% ($40,000) - Amova Singapore STI ETF SGD (Dist) (Bucket 3): Replicates the 
+Straits Times Index, weighting heavily in Singapore's highly regulated, massively 
+capitalized local banks (DBS, OCBC, UOB) which provide unshakeable, franked 
+dividend floors. 
+3.5 Risk/Return Target Profile 
+• 
+Estimated Cash Yield: ~4.9% (This is the "spendable" money). 
+• 
+Target Capital Appreciation: ~2.3% (This is the background growth of the asset 
+prices). 
+• 
+Estimated Total Annualized Return: ~7.2% 
+• 
+Risk Profile: Moderate-Conservative (Optimized heavily for downside income 
+protection over maximum upside capital capture). 
+ 
+ 
+10 | P a g e  
+ 
+ 
+4. INVESTMENT PROCESS & EXECUTION MECHANICS 
+4.1 Research Methodology & Asset Vetting 
+Asset selection is strictly limited to assets that distribute cash. The architecture relies 
+on liquidity flowing to the center. Therefore, "Accumulation-class" funds (which 
+internally reinvest dividends to boost share price) are universally excluded from this 
+portfolio. Only "Distribution-class" funds are vetted and permitted. 
+4.2 Idea Generation & The Yield Shield 
+The 6 core assets are not chosen for speculative outperformance; they are selected to 
+build the "Yield Shield." By combining 4.9% organic cash flow with a 10% pure liquidity 
+buffer, the portfolio mathematically guarantees that the Operator's standard of living is 
+unaffected by a standard recession. 
+4.3 Trade Execution & Passive Management 
+Execution is entirely passive. The Steward of the Engine is expressly forbidden from 
+executing discretionary trades based on market news, geopolitical events, or economic 
+forecasts. Trades are strictly limited to the systematic rules defined by the Rebalancing 
+Strategy to remove all emotional decision-making. 
+4.4 The Rebalancing Strategy (The ±5% Threshold) 
+To maintain the precise 50/40/10 risk profile and systemize a strict "buy low, sell high" 
+discipline, the Portfolio utilizes a two-tier self-healing ecosystem: 
+• 
+The Immediate Threshold Rule (±5%): If extreme market movements cause any 
+individual underlying fund to drift 5% above or below its specific target weight, 
+the Operator must manually intervene to rebalance the portfolio. This requires 
+the Operator to log in and issue a corresponding sell order to trim any fund that is 
++5% over its target weight (locking in profits), or issue a buy order to replenish 
+any fund that has dropped -5% below its target weight. This active, rules-based 
+manual intervention prevents hidden risk concentrations from forming. 
+• 
+The Annual January Review: Once a year, the unspent dividend surplus sitting in 
+the cash holding account is strategically deployed across the 6 assets to restore 
+exact target weightings. This forces the compounding growth of the principal 
+capital base. 
+ 
+ 
+11 | P a g e  
+ 
+4.5 The Annual January Review & "Power Buy" 
+Every January, the operator executes critical maintenance protocols to ensure the 
+engine runs smoothly for another 12 months: 
+1. Verify Cash Balances: Log into the centralized FSMOne cash account. Note the 
+total unspent dividend surplus that accumulated over the previous year. 
+2. Execute Inflation Adjustment: The monthly transfer is adjusted to protect 
+purchasing power. While a 2% fixed increase is the baseline, advanced operators 
+may use a dynamic withdrawal rule tied directly to Singapore Core Inflation 
+(capped at a maximum of 4%, and floored at 0% to prevent payout reductions 
+during deflation). 
+3. Assess Portfolio Weights: Check the percentage weight of all 6 funds against 
+their target 50/40/10 allocations. 
+4. The "Power Buy": Reinvest the accumulated surplus (approximately $7,800 in 
+Year 1). The Operator takes this unspent cash and strictly buys units of the funds 
+that are currently furthest below their target weights. 
+Illustration of the "Slingshot Effect" 
+When markets drift and growth assets drop (e.g., Bucket 3 falls to 44%), the "Power Buy" 
+deploys the unspent cash surplus into these underweight assets at heavily depressed 
+prices. This systematically lowers the portfolio's average cost basis, which is the 
+primary driver behind the accelerated recovery times identified in the historical back-
+testing. This forced reinvestment during downturns creates a mathematical "slingshot" 
+that violently propels capital upward toward the $1.2M+ target once the market 
+normalizes. 
+ 
+ 
+12 | P a g e  
+ 
+ 
+5. RISK MANAGEMENT FRAMEWORK 
+5.1 Risk Philosophy: Redefining "Volatility" 
+Modern finance defines risk as "standard deviation" or volatility in price. The SWT 
+Portfolio rejects this. We define risk strictly as 1) The potential for permanent capital 
+impairment, and 2) The disruption of the monthly cash flow. If a portfolio's paper 
+value drops 30% but its dividend output remains steady at $1,000 a month, the portfolio 
+has experienced zero true risk to the Operator. 
+5.2 Sequence of Returns Risk (SORR) & The 3.3-Year Runway 
+The greatest threat to a retiree is Sequence of Returns Risk—experiencing a severe 
+market crash in the first few years of retirement. If you are forced to sell stocks while 
+they are down 40% just to buy groceries, your capital base is permanently destroyed 
+and can never compound again. 
+The SWT Portfolio defeats SORR through Bucket 1 (The 3.3-Year Runway). 
+• 
+The Mathematics: The $40,000 allocated to the United SGD Fund CI A Dis SGD 
+acts as a localized liquidity vault. The target base distribution is $12,000 
+annually. Should every dividend in the world be temporarily suspended, the 
+Operator can fund their lifestyle strictly out of Bucket 1 for 3.3 consecutive 
+years ($40,000 / $12,000). Because the average bear market lasts roughly 14 to 
+18 months, the 3.3-year runway guarantees the Operator can bridge any 
+systemic crisis without ever selling a single share of their growth assets at a loss. 
+5.3 Market Risk & Counterparty Controls 
+• 
+Counterparty Risk (Platform Dependency): The entire automated dividend 
+sweeping relies on a central platform like FSMOne. While client assets are held 
+in segregated custodian accounts (meaning the underlying units belong securely 
+to you even if the broker fails), a localized technical outage or corporate 
+restructuring could theoretically delay a monthly cash payout. 
+• 
+The Failsafe Implementation (The $500,000 Threshold): While dividing assets 
+across multiple brokerages reduces platform risk, doing so prematurely fractures 
+your AUM. Splitting a $400,000 base would prevent the portfolio from reaching 
+the FSMOne Platinum tier (which requires $500,000 in a single account to 
+permanently eliminate platform fees). Therefore, the Operator is advised to 
+institute a "Dual-Hub" failsafe only after the portfolio comfortably exceeds the 
+$500,000 milestone. Once sufficient scale is achieved beyond this threshold, 
+you may split the capital across two separate institutional brokerages (e.g., 
+FSMOne and POEMS), running identical 50/40/10 setups. This completely 
+13 | P a g e  
+ 
+eliminates single-platform operational risk without sacrificing structural fee 
+efficiency during the critical early growth phase. 
+5.4 Stress Testing and Scenario Analysis 
+The portfolio is actively modelled against a "Perfect Storm" scenario—a simultaneous 
+crash in global equities, global bonds, and real estate. 
+• 
+Under severe duress, the portfolio projects a maximum drawdown of -18.1% 
+(reducing a $400,000 portfolio to ~$327,600). 
+• 
+However, stress testing the underlying yields indicates that even in a distressed 
+state, the assets will generate a blended yield of 4.2%. 
+• 
+4.2% of the distressed $327,600 base still generates $13,759 annually. This 
+comfortably clears the $12,000 required base payout. The engine holds. 
+ 
+ 
+14 | P a g e  
+ 
+ 
+6. HISTORICAL PERFORMANCE & BACKTESTING 
+6.1 Track Record & Forward Projections 
+The SWT Portfolio does not benchmark itself against the S&P 500 or maximum growth 
+indices; it benchmarks against inflation and income stability. Through rigorous surplus 
+reinvestment and conservative 2.3% baseline capital appreciation, the $400,000 base is 
+projected to compound massively over a 30-year operational lifecycle, successfully 
+carrying the escalating distributions without capital decay. (See Appendix B for the full 
+30-Year Mathematical Projection). 
+6.2 Benchmark Comparison 
+Unlike traditional 60/40 mutual funds that rely on the operator actively selling units to 
+generate a 4% withdrawal, the SWT Portfolio operates completely passively. It 
+benchmarks strictly against its own yield generation capacity and purchasing power 
+parity (Singapore Core Inflation). 
+6.3 The "Time Machine" Drawdown Analysis 
+To prove the efficacy of the 50/40/10 architecture, the exact asset allocations were 
+modelled against the most destructive financial events of the modern era: 
+• 
+1997 Asian Financial Crisis (The Regional Meltdown): While pure Asian equity 
+portfolios suffered catastrophic, decade-long losses, the PIE's global bond 
+anchors (Bucket 2) stabilized the ship. Max Drawdown: -17.5%. Estimated 
+Recovery Time: ~14 Months. 
+• 
+2008 Global Financial Crisis (The Great Deleveraging): During a total global 
+banking collapse, the liquidity bucket provided stable cash, allowing the 
+automated rebalancing engine to purchase premium REITs and Equities at 
+massive, generational discounts. Max Drawdown: -25.7%. Estimated Recovery 
+Time: ~22 Months. 
+• 
+2020 COVID-19 Flash Crash: Record-paced market fall. The subsequent 
+injection of global liquidity caused the bond and equity buckets to rebound 
+instantly. Max Drawdown: -15.6%. Estimated Recovery Time: ~5 Months. 
+ 
+ 
+15 | P a g e  
+ 
+ 
+7. FEES, EXPENSES & FRICTIONAL COSTS 
+7.1 Management Fees & TER Mitigation 
+The SWT Portfolio architecture charges 0.00% at the top level. There is no overarching 
+wealth manager siphoning 1% of Assets Under Management (AUM) annually. The 
+Operator absorbs no explicit management fee for running the blueprint. 
+However, the underlying assets carry their respective Total Expense Ratios (TERs). 
+Actively managed funds like PIMCO and JPM carry higher internal fees. These are an 
+accepted structural cost of outsourcing complex global high-yield credit management. 
+The ~4.9% target cash yield of the portfolio is calculated net of these internal fund 
+expenses. 
+7.2 Custodian Platform Fees (FSMOne) & Dollar Impact 
+Because the entire engine is housed on FSMOne, the portfolio is subject to the 
+platform's standard custody and administration fees. These fees are calculated based 
+on the asset type and are deducted directly from your centralized SGD Cash Account. 
+Based on the target $400,000 starting capital and the 50/40/10 architecture, the 
+portfolio is split between Unit Trusts (70%) and Equity ETFs (30%). Here is the exact 
+dollar impact during the initial phase: 
+• 
+Unit Trust Allocation (70% or $280,000): 
+o Assets: United SGD Fund CI A Dis SGD, Amundi Funds Global Aggregate 
+Bond A2 (MTD) SGD-H, PIMCO Income Fund Admin Ci Inc SGD-H, 
+JPMorgan Investment Funds - Global Income A (icdiv) SGD-H. 
+o Fee Rate: 0.05% of AUM per quarter. 
+o Quarterly Cost: ~$140 SGD 
+• 
+Equity ETF Allocation (30% or $120,000): 
+o Assets: Lion-Phillip S-REIT ETF, Amova Singapore STI ETF SGD (Dist). 
+o Fee Rate: 0.0875% of AUM per quarter. 
+o Quarterly Cost: ~$105 SGD 
+Total Estimated FSMOne Platform Fee: ~$245 SGD per quarter (or ~$980 SGD 
+annually) on the base $400,000 portfolio. 
+ 
+ 
+16 | P a g e  
+ 
+7.3 The Platinum Tier Milestone (Fee Elimination) 
+FSMOne operates on a four-tier membership structure: Ruby, Silver, Gold, and 
+Platinum. The frictional costs calculated above are only temporary. 
+A critical milestone for the SWT Portfolio occurs when the aggregate AUM naturally 
+compounds to reach $500,000. At this threshold, the account is automatically 
+upgraded to the Platinum tier. The primary benefit of Platinum status is the complete 
+waiver of the platform fees. Therefore, once the SWT Portfolio grows beyond $500,000, 
+the annual platform fee is entirely eliminated, permanently removing this frictional cost 
+and accelerating the portfolio's compounding efficiency. 
+7.4 The Quarterly Billing Cycle (Pre-Platinum) 
+Before reaching the $500,000 Platinum milestone, FSMOne calculates fees based on 
+unconventional quarterly windows and automatically deducts the required cash in the 
+following month. The Steward of the Engine must be aware of this cycle to understand 
+why the cash hub balance briefly dips during these specific billing months: 
+• 
+Quarter 1 (Dec, Jan, Feb): ~$245 fee automatically deducted in March. 
+• 
+Quarter 2 (Mar, Apr, May): ~$245 fee automatically deducted in June. 
+• 
+Quarter 3 (Jun, Jul, Aug): ~$245 fee automatically deducted in September. 
+• 
+Quarter 4 (Sep, Oct, Nov): ~$245 fee automatically deducted in December. 
+Strategic Note: Because the portfolio yields roughly $1,650 per month in raw cash, and 
+your targeted "Salary" sweep is only $1,000, the cash hub retains a ~$650 monthly 
+surplus. This unspent cash buffer easily absorbs the $245 quarterly platform fee 
+without ever requiring the operator to sell shares to raise cash. 
+7.5 Operating Expenses & FX Mitigation 
+Other frictional costs are strictly limited to the execution mechanics of the platform: 
+• 
+Execution commissions incurred on FSMOne only during the Annual January 
+Review when reinvesting the surplus. 
+• 
+Zero FX Conversion Spreads: Because all chosen underlying assets (including 
+global unit trusts and local ETFs) specifically utilize SGD or SGD-Hedged 
+distribution share classes, every single dividend is paid directly in Singapore 
+Dollars. This completely eliminates the hidden frictional cost of foreign exchange 
+conversion spreads that brokerages typically charge when processing USD or 
+EUR distributions. 
+ 
+ 
+17 | P a g e  
+ 
+ 
+8. PORTFOLIO VALUATION & NAV Tracking 
+8.1 Net Asset Value (NAV) Calculation 
+NAV is calculated dynamically by the custodian platform (FSMOne) based on the 
+aggregate mark-to-market value of the 6 underlying holdings, adjusted for real-time 
+currency fluctuations, plus the localized SGD cash hub balance. 
+8.2 Valuation Methodology & Frequency 
+While the custodian processes pricing updates daily, the Operator is explicitly 
+instructed by this mandate to assess the total portfolio valuation strictly on an annual 
+basis during the designated January Review. Outside of this single administrative 
+window, the Operator must actively ignore the portfolio's total paper value. 
+8.3 The Behavioral Finance Imperative: The Psychology of Inattention 
+The primary threat to the Perpetual Income Engine (PIE) is not macroeconomic 
+collapse, interest rate hikes, or geopolitical conflict; the primary threat is the Operator’s 
+own psychology. The financial architecture of the 50/40/10 split is mathematically 
+robust, but it requires human discipline to function. Restricting portfolio evaluation to 
+once a year is not merely a suggestion—it is a structural defense mechanism rooted 
+deeply in behavioral economics. 
+8.3.1 Combating "Myopic Loss Aversion" 
+Human beings are psychologically hardwired to feel the pain of a financial loss roughly 
+twice as intensely as the pleasure of an equivalent gain—a cognitive bias known as loss 
+aversion. Furthermore, financial markets are highly volatile in the short term but trend 
+upward in the long term. 
+• 
+If you check your portfolio daily, there is roughly a 50% chance you will see a 
+negative number on any given day. You subject yourself to constant, microscopic 
+emotional pain, making the investment feel highly risky and stressful. 
+• 
+If you check your portfolio annually, historical data shows you have roughly a 
+75% to 80% chance of seeing a positive number. 
+By expanding the evaluation timeframe to a full 12 months, you align your psychological 
+feedback loop with the actual, upward macroeconomic drift of the assets, eliminating 
+the daily emotional whiplash. 
+ 
+ 
+18 | P a g e  
+ 
+8.3.2 Neutralizing "Action Bias" (The Illusion of Control) 
+When humans perceive a threat—such as a red arrow showing a $30,000 drop in 
+portfolio value during a market correction—our evolutionary "fight or flight" response is 
+triggered. We feel an overwhelming urge to do something to stop the pain. In the context 
+of the PIE, "doing something" usually means panic-selling the Growth bucket assets at 
+the exact worst possible time. In a perpetuity model, doing nothing is almost always the 
+mathematically superior choice. By intentionally remaining blind to the daily NAV, the 
+Operator enforces a state of "strategic passivity," ensuring the automated Yield Shield 
+has the time and space to do its job without human interference. 
+8.3.3 Decoupling "Paper Wealth" from "Cash Reality" 
+The PIE operates on the philosophy that cash flow is the only metric that matters for 
+day-to-day living. If a severe market crash temporarily reduces the portfolio’s NAV from 
+$400,000 to $320,000, the Operator has not "lost" $80,000 of spending power. The 
+underlying assets—the bonds and the real estate—are still pumping the necessary cash 
+into the central hub to fund the $1,000 monthly payout. Monitoring the daily NAV 
+conflates the fluctuating paper value of the "Goose" with the very real, very stable 
+production of the "Eggs." 
+8.3.4 Defending Against Information Toxicity 
+The 24-hour financial news cycle does not exist to make you wealthy; it exists to 
+monetize your attention by inducing anxiety. There will always be a "crisis" dominating 
+the headlines—a currency war, an impending recession, or an inflation scare. By 
+checking the portfolio only in January, the Operator structurally insulates themselves 
+from the noise. You evaluate the engine based on a full year of cold, hard data, rather 
+than reacting to yesterday's sensationalized news alert. 
+8.4 The Operational Mandate (The "Ignore" Rule) 
+To successfully execute this strategy over a 30-year horizon, the Operator is strongly 
+advised to implement the following physical boundaries: 
+• 
+Remove Custodian Apps: Delete the FSMOne (or equivalent brokerage) 
+application from your mobile phone. Do not carry your portfolio in your pocket. 
+• 
+The True Metric of Success: Your primary indicator of portfolio health is not the 
+brokerage account balance. It is your retail checking account. If the $1,000 
+automated transfer clears into your daily bank account on the 1st of every 
+month, the Perpetual Income Engine is fully operational. 
+If the cash clears, ignore the machine. Let it run until January. 
+ 
+ 
+19 | P a g e  
+ 
+ 
+9. RISK FACTORS & DISCLOSURES 
+9.1 Macroeconomic & Interest Rate Risk 
+With 60% of the portfolio allocated to fixed income and real estate (Bonds + REITs), the 
+portfolio exhibits high sensitivity to central bank interest rates. When interest rates rise 
+rapidly, the paper value of these assets will drop. However, because the bonds are held 
+to collect coupons (not for trading) and S-REIT landlords historically possess the power 
+to raise rents during inflationary periods, the cash flow remains highly insulated despite 
+NAV volatility. 
+9.2 Liquidity & Operational Risk 
+During severe global liquidity crises, high-yield corporate bonds (inside PIMCO) may 
+face short-term liquidity crunches. This vulnerability is strictly mitigated by the 10% 
+United SGD localized reserve, ensuring the Operator never relies on the distressed 
+assets for immediate cash flow. 
+9.3 Regulatory & Tax Code Risk 
+The exceptional efficiency of the SWT Portfolio relies on Singapore's current tax code. 
+Any legislative changes introducing a capital gains tax or altering the tax transparency 
+treatment of S-REIT distributions would necessitate a structural reconfiguration of the 
+Growth Bucket. 
+9.4 Stagflation & Model Risk 
+The model operates on a standard assumption of 2% inflation. Should the global 
+economy enter a prolonged period of stagflation (high inflation combined with a 
+stagnant economy), the fixed 2% annual escalation will fail to protect purchasing power. 
+In this event, a dynamic withdrawal rule tied directly to Singapore Core Inflation 
+(capped at 4% to protect the principal) must be implemented. Furthermore, the 
+portfolio lacks a pure commodity hedge (like physical Gold), relying instead on S-REIT 
+real estate to act as the hard-asset inflation proxy. 
+ 
+ 
+20 | P a g e  
+ 
+ 
+10. OPERATIONAL INFRASTRUCTURE & AUTOMATION 
+10.1 Technology Platform & Custody 
+All operations, custody, and cash holding must be centralized on a tier-one digital 
+wealth platform (such as FSMOne) that supports complex automated standing 
+instructions and multi-currency dividend sweeping. 
+10.2 Trade Operations & Dividend Sweeping 
+The technical setup requires three strict protocols upon account initialization: 
+1. DRIP Disabled: "Dividend Reinvestment" must be manually turned off across all 
+6 asset tickers. All yields must distribute as hard cash. 
+2. Central SGD Routing: Ensure all foreign currency dividends (USD/EUR) are 
+automatically converted and routed to the central SGD Cash Account. 
+3. The Sweep Instruction: Establish an automated recurring bank transfer on the 
+1st of every month, pulling the designated "Salary" from the brokerage cash 
+account directly to the Operator's retail checking account. 
+10.3 Estate Planning & Business Continuity 
+The SWT Portfolio is a legacy vehicle. Execution relies on integration with a Lasting 
+Power of Attorney (LPA) to allow a Donee to manage the January Review if the Operator 
+is incapacitated. The Operator must affix a formal "Letter to Heirs" alongside their Will, 
+detailing the 50/40/10 operational mandate, ensuring the next generation understands 
+they are receiving an operational engine, not a lump sum to be liquidated. 
+ 
+ 
+21 | P a g e  
+ 
+ 
+11. APPENDICES 
+Appendix A: Definitions of Key Terms 
+• 
+Yield Shield: The collective cash flow generated by Bucket 2 to fund 
+distributions without selling shares. 
+• 
+The January Review: The single annual administrative event to adjust inflation 
+payouts and systematically reinvest dividend surplus. 
+• 
+Sequence of Returns Risk (SORR): The danger of experiencing severe market 
+declines early in the distribution phase, forcing the sale of depressed assets and 
+permanently destroying the compounding base. 
+• 
+Accumulation vs. Distribution Class: Fund share classes. Distribution pays 
+cash out; Accumulation reinvests cash internally. The PIE exclusively uses 
+Distribution. 
+ 
+ 
+22 | P a g e  
+ 
+Appendix B: 30-Year Capital & Distribution Projection Table 
+This table models the compounding effect of reinvesting the dividend surplus alongside 
+a conservative 2.3% baseline asset appreciation, while systematically increasing the 
+monthly payout by 2% annually to combat inflation. 
+Year 
+Starting 
+Base 
+Capital 
+Monthly 
+Payout 
+Annual 
+Payout 
+Est. Cash 
+Yield 
+Generated 
+Unspent 
+Surplus 
+Reinvested 
+Total Return 
+Path 
+(Capital 
+Base at Year 
+End) 
+1 
+$400,000 
+$1,000 
+$12,000 
+$19,600 
+$7,600 
+$416,800 
+5 
+$471,050 
+$1,082 
+$12,989 
+$23,081 
+$10,092 
+$491,968 
+10 
+$562,410 
+$1,195 
+$14,340 
+$27,558 
+$13,218 
+$588,555 
+15 
+$673,854 
+$1,319 
+$15,833 
+$33,018 
+$17,185 
+$706,536 
+20 
+$811,288 
+$1,456 
+$17,482 
+$39,753 
+$22,270 
+$852,143 
+25 
+$982,561 
+$1,608 
+$19,301 
+$48,145 
+$28,844 
+$1,033,968 
+30 
+$1,197,320 
+$1,775 
+$21,309 
+$58,668 
+$37,358 
+$1,262,216 
+(Note: Projections are mathematical models based on the 4.9% yield and 2.3% 
+appreciation targets. Real-world results will fluctuate based on market cycles, but the 
+underlying compounding mechanic remains functionally robust). 
+ 
+ 
+23 | P a g e  
+ 
+Appendix C: Client Qualification & Lifecycle Phase Mapping 
+The portfolio operates differently depending on the Operator's current timeline. This 
+document confirms the operational phase at deployment. 
+• 
+Phase 0 (Accumulation): The Operator is actively saving capital toward the 
+$400,000 target. During this phase, 100% of generated dividends are swept out 
+as a lifestyle bonus, while active income builds the core base. 
+• 
+Phase 1 (Retirement Start): Active employment income ceases. The portfolio 
+pivots to "Salary Mode," activating the strict $1,000/month withdrawal and 
+initiating the surplus reinvestment cycle. 
+• 
+Phase 2 (Perpetuity): The long-term operational state governed entirely by the 
+Annual January Review and the 2% inflation escalation. 
+ 

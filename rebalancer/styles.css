@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #e5e5e5;
+}
+
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #000000; }
+::-webkit-scrollbar-thumb { background: #262626; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #404040; }
+
+/* Bloomberg inspired inputs */
+.bbg-input {
+    background-color: #050505;
+    border: 1px solid #333333;
+    color: #ff9900;
+    transition: all 0.2s;
+}
+.bbg-input:focus {
+    border-color: #ff9900;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(255, 153, 0, 0.2);
+}
+
+.bbg-panel {
+    background-color: #0a0a0a;
+    border: 1px solid #262626;
+    border-radius: 4px;
+}
+
+.bbg-button {
+    background: linear-gradient(180deg, #262626 0%, #111111 100%);
+    border: 1px solid #4d4d4d;
+    color: #cccccc;
+    transition: all 0.1s;
+}
+.bbg-button:hover {
+    background: linear-gradient(180deg, #333333 0%, #1a1a1a 100%);
+    border-color: #666666;
+    color: #ffffff;
+}
+.bbg-button:active {
+    background: #111111;
+    border-color: #333333;
+}
+.bbg-button-primary {
+    background: linear-gradient(180deg, #ff9900 0%, #cc7a00 100%);
+    border: 1px solid #ffcc80;
+    color: #000000;
+    font-weight: 700;
+    transition: all 0.1s;
+}
+.bbg-button-primary:hover {
+    background: linear-gradient(180deg, #ffaa33 0%, #e68a00 100%);
+}
+.bbg-button-primary:active {
+    background: #cc7a00;
+    border-color: #ff9900;
+}
+
+/* Row animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(-5px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Grid lines for terminal look */
+.terminal-grid {
+    background-size: 50px 50px;
+    background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
